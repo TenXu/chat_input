@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        android:id="@+id/tl_func"
+        android:gravity="center">
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/id_ll_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/FuncImg"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_option_item"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    style="@style/FuncTv"
+                    android:layout_gravity="center"
+                    android:text="功能1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_ll_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/FuncImg"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_option_item"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    style="@style/FuncTv"
+                    android:layout_gravity="center"
+                    android:text="功能2" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:id="@+id/id_ll_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/FuncImg"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_option_item"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    style="@style/FuncTv"
+                    android:layout_gravity="center"
+                    android:text="功能3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_ll_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/FuncImg"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selector_option_item"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    style="@style/FuncTv"
+                    android:layout_gravity="center"
+                    android:text="功能4" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
